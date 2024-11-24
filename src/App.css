@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.period-buttons {
+  display: flex;
+  gap: 8px;
+  margin: 16px;
+  justify-content: center;
+}
+
+.period-buttons button {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.period-buttons button:hover {
+  background: #f5f5f5;
+}
+
+.period-buttons button.active {
+  background: #1976d2;
+  color: white;
+  border-color: #1976d2;
+}
